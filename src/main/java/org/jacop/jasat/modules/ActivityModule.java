@@ -181,7 +181,7 @@ public final class ActivityModule implements ClauseListener, BackjumpListener, C
     /**
      * gives activity of a (signed) literal
      *
-     * @param literal the literal
+     * @param var the literal
      * @return the activity of this (variable, polarity)
      */
     private final int getLiteralActivity(int var, boolean polarity) {
@@ -196,7 +196,7 @@ public final class ActivityModule implements ClauseListener, BackjumpListener, C
     /**
      * code that really performs variable and polarity activity bumping.
      *
-     * @param var the variable
+     * @param literal the variable
      * @return the new activity of the variable
      */
     private final int bumpVar(int literal) {
@@ -266,7 +266,7 @@ public final class ActivityModule implements ClauseListener, BackjumpListener, C
 
     /**
      * compares literals according to their activity. This stands for
-     * i > j and not i < j, because we want activities to
+     * i &gt; j and not i &lt; j, because we want activities to
      * be sorted in decreasing order
      *
      * @author simon

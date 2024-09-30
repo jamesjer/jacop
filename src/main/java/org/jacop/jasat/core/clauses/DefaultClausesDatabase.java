@@ -535,7 +535,7 @@ public final class DefaultClausesDatabase extends AbstractClausesDatabase {
      * (used for debug) checks if the 2 first literals of the clauses
      * are exactly the set of literals that watch this clause
      *
-     * @param clauseIndex the index of the clause
+     * @param var the variable
      */
     @SuppressWarnings("unused") private String checkWatches4var(int var) {
 

@@ -160,7 +160,7 @@ public final class Node {
     }
 
     /**
-     * Recomputes the potential & depth values in the subtree rooted at this
+     * Recomputes the potential &amp; depth values in the subtree rooted at this
      * node.
      */
     void computePotentials() {

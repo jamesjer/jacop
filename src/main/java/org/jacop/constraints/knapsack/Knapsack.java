@@ -327,7 +327,7 @@ public class Knapsack extends Constraint implements UsesQueueVariable, Satisfied
      * It makes sure that no item has a possibility to use more than
      * available capacity.
      * <p>
-     * quantity.max() * weight < remainingCapacity.
+     * quantity.max() * weight &lt; remainingCapacity.
      *
      * @param store             the constraint store responsible for stroing the problem.
      * @param parent            the node from which the restriction
